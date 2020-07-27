@@ -1,6 +1,6 @@
 {
   "name": "@jefth/tinyapi",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "a api libs for min apps",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "release:patch": "npm run release -- --release-as patch",
     "release:minor": "npm run release -- --release-as minor",
     "release:major": "npm run release -- --release-as major",
-    "publish": "git push --follow-tags origin master && npm publish",
+    "publish": "git push --follow-tags origin master && npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
