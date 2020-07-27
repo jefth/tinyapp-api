@@ -2,7 +2,7 @@ import { getScrollTop, setScrollTop } from '../utils/index';
 
 let _frameRequestId = null,
   _from, _to, _start, _duration;
-const supportPerformance = !!(window.performance && window.performance.now);
+const supportPerformance = !!(window && window.performance && window.performance.now);
 
 function runScroll() {
   _frameRequestId = window.requestAnimationFrame((now) => {
