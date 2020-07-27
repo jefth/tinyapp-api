@@ -1,6 +1,6 @@
 {
   "name": "@jefth/tinyapi",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "a api libs for min apps",
   "main": "index.js",
   "scripts": {
@@ -58,5 +58,8 @@
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }

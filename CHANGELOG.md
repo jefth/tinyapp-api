@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/jefth/tinyapp-api/compare/v0.0.8...v0.0.9) (2020-07-27)
+
+
+### Bug Fixes
+
+* aaaChanged some files ([0832114](https://github.com/jefth/tinyapp-api/commit/08321146a60641d1b5c9c2f67460ac2d1bbc6467))
+
 ### [0.0.8](https://github.com/jefth/tinyapp-api/compare/v0.0.7...v0.0.8) (2020-07-27)
 
 ### [0.0.7](https://github.com/jefth/tinyapp-api/compare/v0.0.6...v0.0.7) (2020-07-27)
