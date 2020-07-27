@@ -1,6 +1,6 @@
 {
   "name": "@tinyapp/api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a api libs for min apps",
   "main": "index.js",
   "scripts": {
@@ -40,10 +40,18 @@
   },
   "homepage": "https://github.com/jefth/tinyapp-api#readme",
   "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "standard-version": "^8.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -e $GIT_PARAMS"
+    }
   }
 }
