@@ -1,15 +1,15 @@
 {
   "name": "@jefth/tinyapi",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "a api libs for min apps",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./ --fix",
-    "release": "standard-version",
-    "release:pre": "npm run release -- --prerelease",
-    "release:patch": "npm run release -- --release-as patch",
-    "release:minor": "npm run release -- --release-as minor",
-    "release:major": "npm run release -- --release-as major",
+    "build": "standard-version",
+    "build:pre": "npm run release -- --prerelease",
+    "build:patch": "npm run release -- --release-as patch",
+    "build:minor": "npm run release -- --release-as minor",
+    "build:major": "npm run release -- --release-as major",
     "pub": "git push --follow-tags origin master && npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -60,6 +60,7 @@
     }
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "mobile-detect": "^1.4.4"
   }
 }
