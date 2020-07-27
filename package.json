@@ -1,6 +1,6 @@
 {
   "name": "@jefth/tinyapi",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "a api libs for min apps",
   "main": "index.js",
   "scripts": {
